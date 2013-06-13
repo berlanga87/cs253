@@ -9,7 +9,6 @@ import logging #remove in production
 from datetime import datetime, timedelta
 from string import letters
 
-
 import webapp2
 import jinja2
 
@@ -20,7 +19,7 @@ template_dir = os.path.join(os.path.dirname(__file__), 'templates')
 jinja_env = jinja2.Environment(loader = jinja2.FileSystemLoader(template_dir),
                                autoescape = True)
 
-secret = 'fart'
+secret = 'fast'
 
 def age_set(key, val):
     save_time = datetime.utcnow()

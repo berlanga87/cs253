@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>/ascii/</title>
+	</head>
+
+	<body>
+		<h1>/blog/</h1>
+
+		<form method="post">
+			<label>
+				<div>Title</div>
+				<input type="text" name="subject" value={{subject}}>
+			</label>
+
+			<label>
+				<div>Content</div>
+				<textarea name="content">{{content}}</textarea>
+			</label>
+			<input type="submit">
+			<div class="error">{{error}}</div>
+		</form>				
+	</body>
+</html>
